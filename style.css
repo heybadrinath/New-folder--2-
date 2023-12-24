@@ -1,0 +1,258 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lobster', sans-serif;
+}
+#logo{
+    height: 40px;
+    width: 80px;
+}
+
+#nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #7e30e1, #ca00b9, #f2008a, #ff005c, #ff3030);
+    padding: 10px;
+}
+
+#textLogo p{
+    text-align: center;
+    font-size: large;
+    color: white;
+}
+
+#productIntro{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+#image{
+    display: flex;
+    justify-content: center;
+}
+#shoe{
+    height:200px;
+    width: 200px;
+}
+
+#imageReview{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+
+#profile{
+    height: 20px;
+    border-radius: 90px;
+}
+
+#reviewStar{
+    height: 50px;
+}
+
+#name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: smaller;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+
+#varients{
+    display: flex;
+    justify-content: center;
+    margin: 0px 30px;
+}
+#white{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 1px solid;
+    margin: 5px;
+}
+
+#black{
+    border: 1px solid;
+    margin: 5px;
+    background-color: black;
+    height: 20px;
+    width: 20px;
+}
+
+#brown{
+    border: 1px solid;
+    margin: 5px;
+    background-color: brown ;
+    height: 20px;
+    width: 20px;
+}
+
+#re{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#btns{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#cart{
+    background-color: yellow;
+    font-weight: bold;
+    border: 0px;
+    padding: 5px;    
+}
+
+#buy{
+    background-color: rgb(0, 255, 0);
+    font-weight: bold;
+    border: 0px;
+    padding:5px;
+}
+
+
+ul{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    display: inline-block;
+    width: 40%;
+    margin: -1px 30%;
+    list-style-type: none;
+}
+
+li{
+    border: 1px solid;
+    background-color: rgb(0, 255, 153);
+    margin: 5px;
+}
+
+#highlights{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 5%;
+}
+#reviews{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#pro{
+    height: 100px;
+    margin: 0px 15px;
+}
+#stars{
+    height: 30px;
+}
+
+#userName{
+    font-family: 'Courier New', Courier, monospace;
+}
+#rev{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#extraProducts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.ii{
+    height: 150px;
+    width: 200px;
+}
+
+.cap{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+#signUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#confirm{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+#mail{
+    height: 40px;
+    border: none;
+    width: 100px;
+    background-color: #0080ff;
+    border-radius: 20px;
+    border: 1px solid;
+}
+
+#about{
+    color: cyan;
+    text-align: center;
+    cursor: pointer;
+}
+#footer{
+    height: auto;
+    background-color: black;
+    color: white;
+}
+
+#foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width: 600px) {
+        #foot{
+            flex-direction: column;
+        }
+        .ii{
+            height: 70px;
+            width: 90px;
+        }
+        
+        ul{
+            width: 90%;
+            margin: -1px 5%;
+        }
+
+        #textLogo p{
+            font-size: x-small;
+        }
+        #logo{
+            height: 30px;
+            width: 60px;
+        }
+        #productIntro{
+            flex-direction: column;
+        }
+        #reviewStar{
+            width: 40%;
+            height: 50px;
+            margin: 3% 30%;
+            
+        }
+        #ds{
+            width: 250px;
+            height: auto;
+        }
+}
